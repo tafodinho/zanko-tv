@@ -1,2 +1,132 @@
 body {
   background: white; }
+
+.center {
+  margin: 0 auto; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.top {
+  padding-top: 41px;
+  background: linear-gradient(rgba(4, 80, 180, 0.705), rgba(116, 26, 116, 0.75)), url("../images/avengers-endgame-promo-crop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  position: relative; }
+
+.top .header {
+  width: 70%; }
+
+.top .header ul {
+  list-style: none; }
+
+.top .header ul li {
+  float: left; }
+
+.top .header ul li button {
+  color: white;
+  float: right;
+  padding: 7px 56px;
+  border-radius: 24px;
+  background: rgba(116, 26, 116, 0);
+  border: 2.5px white solid; }
+
+.top .header ul li button:hover {
+  background: rgba(116, 26, 116, 0.377); }
+
+.top .header ul .deal-now {
+  float: right; }
+
+.top .header ul .logo {
+  font-size: 20px; }
+
+.top .header ul .logo span {
+  font-weight: 600;
+  letter-spacing: 3px; }
+
+.top .hero {
+  width: 70%; }
+
+.top .hero .left-hero-section {
+  margin-left: 50px;
+  float: left; }
+
+.top .hero .left-hero-section h1 {
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
+
+.top .hero .left-hero-section ul {
+  margin-left: 50px;
+  list-style: none; }
+
+.top .hero .left-hero-section ul li {
+  font-weight: 600;
+  margin-top: 30px;
+  letter-spacing: 1px; }
+
+.top .hero .left-hero-section ul li:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../images/icons/check.png") no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  margin-right: 17px;
+  margin-top: 2px; }
+
+.top .hero .left-hero-section button {
+  margin-top: 25px;
+  color: white;
+  padding: 7px 56px;
+  border-radius: 24px;
+  background: rgba(116, 26, 116, 0);
+  border: 3.5px white solid; }
+
+.top .hero .left-hero-section button:hover {
+  background: rgba(116, 26, 116, 0.377); }
+
+.top .hero .right-hero-section {
+  margin-top: 50px;
+  float: right; }
+
+.top .hero .right-hero-section h4, .top .hero .right-hero-section img {
+  float: left; }
+
+.top .platforms {
+  position: absolute;
+  border-radius: 47px;
+  box-shadow: 0px 0px 11px #757171;
+  background: #ffffff;
+  bottom: -40px;
+  left: 50%;
+  margin-left: -30%;
+  width: 60%; }
+
+.top .platforms div {
+  padding: 12px 30px;
+  width: 60%; }
+
+.top .platforms div img {
+  width: 20%; }
+
+.top .platforms div img:not(:last-child) {
+  margin-right: 5%; }
+
+.second-row {
+  margin-top: 100px; }
+
+.second-row p {
+  color: #439adb;
+  font-weight: 600; }
+
+.second-row img {
+  width: 100%;
+  margin-top: 86px; }
