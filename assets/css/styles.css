@@ -125,8 +125,132 @@ ul {
 
 .second-row p {
   color: #439adb;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-left: 55px; }
 
 .second-row img {
   width: 100%;
   margin-top: 86px; }
+
+.second-row h1 {
+  margin-left: 55px; }
+
+.second-row ul {
+  margin-left: 100px;
+  list-style: none;
+  margin-top: 50px; }
+
+.second-row ul li {
+  margin-top: 12px;
+  font-size: 20px; }
+
+.second-row ul li:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../images/icons/check.png") no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  margin-right: 17px;
+  margin-top: 2px; }
+
+.second-row button {
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 25px;
+  color: white;
+  padding: 15px 56px;
+  border-radius: 34px;
+  background: #47bcff;
+  border: 3.5px white solid; }
+
+.second-row button:hover {
+  background: #5f6fb6; }
+
+.third-row {
+  margin-top: 100px; }
+
+.third-row .card-holder {
+  width: 60%; }
+
+.third-row .card-holder .card {
+  padding: 60px 14px;
+  box-shadow: 0px 0px 12px grey;
+  margin-bottom: 30px;
+  border: none; }
+
+.third-row .card-holder .card img {
+  width: 30%; }
+
+.third-row .card-holder .card h5 {
+  margin-top: 22px; }
+
+.third-row .card-holder .card p {
+  width: 66%;
+  margin-top: 35px;
+  font-size: 13.5px;
+  text-align: justify; }
+
+.third-row .card-holder .card-blue {
+  background: #438cfa;
+  color: white;
+  box-shadow: none; }
+
+.fouth-row {
+  margin-top: 100px;
+  background: linear-gradient(rgba(4, 80, 180, 0.705), rgba(116, 26, 116, 0.75)), url("../images/family-time.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.fouth-row .inner-container {
+  margin-left: 250px;
+  width: 80%; }
+
+.fouth-row .inner-container h1 {
+  margin-bottom: 30px; }
+
+.fouth-row .inner-container .icons {
+  width: 100%;
+  margin-top: 12px; }
+
+.fouth-row .inner-container .top-paid-section {
+  margin-top: 40px; }
+
+.fouth-row .inner-container .top-paid-section .top-paid-left {
+  margin-top: 60px; }
+
+.fouth-row .inner-container .top-paid-section .top-paid-left button {
+  font-weight: 600;
+  display: block;
+  margin-top: 25px;
+  color: white;
+  padding: 7px 56px;
+  border-radius: 24px;
+  background: rgba(116, 26, 116, 0);
+  border: 3.5px white solid; }
+
+.fouth-row .inner-container .top-paid-section .top-paid-left button:hover {
+  background: rgba(116, 26, 116, 0.377); }
+
+.fifth-row {
+  margin-top: 100px; }
+
+.fifth-row .inner-fifth-row {
+  width: 70%; }
+
+.fifth-row .inner-fifth-row p {
+  text-align: center; }
+
+.fifth-row .inner-fifth-row h1 {
+  text-align: center; }
+
+.fifth-row .inner-fifth-row .card-section .card h3 {
+  float: left; }
+
+.fifth-row .inner-fifth-row .card-section .card img {
+  width: 35px;
+  float: left; }
