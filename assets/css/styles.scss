@@ -246,25 +246,135 @@ ul {
 }
 .fifth-row {
     margin-top: 100px;
+    padding-bottom: 100px;
     .inner-fifth-row {
         width: 70%;
         p {
             text-align: center;
+            color: #438cfa;
         }
         h1 {
             text-align: center;
         }
         .card-section {
+            margin-top: 70px;
             .card {
-                h3{
-                    float: left;
+                box-sizing: border-box;
+                padding-right: 12px;
+                flex-direction: column;
+                box-shadow: 0px 0px 15px #ccc;
+                border: none;
+                position: relative;
+                height: 600px;
+                .card-top {
+                    margin-top: 21px;
+                    margin-left: 30px;
+                    margin-bottom: 12px;
+                    h3{
+                        float: left
+                    }
+                    img {
+                        width: 30px;
+                        float: left;
+                        margin-right: 7px;
+                        margin-top: 2px;
+                    }
                 }
-                img {
-                    width: 35px;
-                    float: left;
+                .nice-side {
+                    background: #438cfa;
+                    padding: 25px 12px;
+                    margin-right: 50px;
+                    border-top-right-radius: 30px;
+                    border-bottom-right-radius: 30px;
+                    color: white;
+                    p, h1 {
+                        margin-left: 15px;
+                    }
+                    p{
+                        text-align: left;
+                        margin-bottom: 0;
+                        color: white;
+                    }
+                    h1 {
+                        font-weight: 600;
+                        text-align: left;
+                    }
+                }
+                .price-list {
+                    list-style: none;
+                    margin-top: 45px;
+                    margin-left: 45px;
+                    li {
+                        margin-top: 4px;
+                        font-size: 13.8px;
+                        &:before {
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            background: url("../images/icons/done-tick.svg") no-repeat;
+                            background-size: cover;
+                            display: block;
+                            float: left;
+                            margin-right: 12px;
+                            margin-top: 2px;
+                        }
+                    }
+                }
+                hr{
+                    border-color: #438cfa;
+                    border-width: 2.7px;
+                    width: 74%;
+                    margin: 20px auto;
+                }
+                button {
+                    left: 50%;
+                    margin-left: -30%;
+                    bottom: 21px;
+                    position: absolute;
+                    margin-top: 120px;
+                    font-weight: 600;
+                    width: 60%;
+                    display: block;
+                    color: #438cfa;
+                    padding: 7px 30px;
+                    border-radius: 24px;
+                    background: rgba(116, 26, 116, 0);
+                    border: 2.7px #438cfa solid;
+                    &:hover {
+                        background: rgba(116, 26, 116, 0.377);
+                    }
+                }
+            }
+            .blue-card {
+                background: #438cfa;
+                color: white;;
+                .nice-side {
+                    background: white;
+                    color: #438cfa;
+                    p{
+                        color: #438cfa;
+                    }
+                }
+                .price-list {
+                    li{
+                        &:before {
+                            background: url("../images/icons/white-tick.svg") no-repeat;
+                            background-size: cover;
+                        }
+                    }
+                }
+                hr {
+                    border-color: white;
+                }
+                button {
+                    color: white;
+                    border-color: white;
                 }
             }
         }
     }
+    
+}
+.sixth-row {
     
 }

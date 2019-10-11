@@ -237,20 +237,127 @@ ul {
   background: rgba(116, 26, 116, 0.377); }
 
 .fifth-row {
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding-bottom: 100px; }
 
 .fifth-row .inner-fifth-row {
   width: 70%; }
 
 .fifth-row .inner-fifth-row p {
-  text-align: center; }
+  text-align: center;
+  color: #438cfa; }
 
 .fifth-row .inner-fifth-row h1 {
   text-align: center; }
 
-.fifth-row .inner-fifth-row .card-section .card h3 {
+.fifth-row .inner-fifth-row .card-section {
+  margin-top: 70px; }
+
+.fifth-row .inner-fifth-row .card-section .card {
+  box-sizing: border-box;
+  padding-right: 12px;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px #ccc;
+  border: none;
+  position: relative;
+  height: 600px; }
+
+.fifth-row .inner-fifth-row .card-section .card .card-top {
+  margin-top: 21px;
+  margin-left: 30px;
+  margin-bottom: 12px; }
+
+.fifth-row .inner-fifth-row .card-section .card .card-top h3 {
   float: left; }
 
-.fifth-row .inner-fifth-row .card-section .card img {
-  width: 35px;
-  float: left; }
+.fifth-row .inner-fifth-row .card-section .card .card-top img {
+  width: 30px;
+  float: left;
+  margin-right: 7px;
+  margin-top: 2px; }
+
+.fifth-row .inner-fifth-row .card-section .card .nice-side {
+  background: #438cfa;
+  padding: 25px 12px;
+  margin-right: 50px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white; }
+
+.fifth-row .inner-fifth-row .card-section .card .nice-side p, .fifth-row .inner-fifth-row .card-section .card .nice-side h1 {
+  margin-left: 15px; }
+
+.fifth-row .inner-fifth-row .card-section .card .nice-side p {
+  text-align: left;
+  margin-bottom: 0;
+  color: white; }
+
+.fifth-row .inner-fifth-row .card-section .card .nice-side h1 {
+  font-weight: 600;
+  text-align: left; }
+
+.fifth-row .inner-fifth-row .card-section .card .price-list {
+  list-style: none;
+  margin-top: 45px;
+  margin-left: 45px; }
+
+.fifth-row .inner-fifth-row .card-section .card .price-list li {
+  margin-top: 4px;
+  font-size: 13.8px; }
+
+.fifth-row .inner-fifth-row .card-section .card .price-list li:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../images/icons/done-tick.svg") no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  margin-right: 12px;
+  margin-top: 2px; }
+
+.fifth-row .inner-fifth-row .card-section .card hr {
+  border-color: #438cfa;
+  border-width: 2.7px;
+  width: 74%;
+  margin: 20px auto; }
+
+.fifth-row .inner-fifth-row .card-section .card button {
+  left: 50%;
+  margin-left: -30%;
+  bottom: 21px;
+  position: absolute;
+  margin-top: 120px;
+  font-weight: 600;
+  width: 60%;
+  display: block;
+  color: #438cfa;
+  padding: 7px 30px;
+  border-radius: 24px;
+  background: rgba(116, 26, 116, 0);
+  border: 2.7px #438cfa solid; }
+
+.fifth-row .inner-fifth-row .card-section .card button:hover {
+  background: rgba(116, 26, 116, 0.377); }
+
+.fifth-row .inner-fifth-row .card-section .blue-card {
+  background: #438cfa;
+  color: white; }
+
+.fifth-row .inner-fifth-row .card-section .blue-card .nice-side {
+  background: white;
+  color: #438cfa; }
+
+.fifth-row .inner-fifth-row .card-section .blue-card .nice-side p {
+  color: #438cfa; }
+
+.fifth-row .inner-fifth-row .card-section .blue-card .price-list li:before {
+  background: url("../images/icons/white-tick.svg") no-repeat;
+  background-size: cover; }
+
+.fifth-row .inner-fifth-row .card-section .blue-card hr {
+  border-color: white; }
+
+.fifth-row .inner-fifth-row .card-section .blue-card button {
+  color: white;
+  border-color: white; }
