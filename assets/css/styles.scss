@@ -376,5 +376,19 @@ ul {
     
 }
 .sixth-row {
-    
+    background: linear-gradient(
+        rgba(4, 80, 180, 0.705),
+        rgba(116, 26, 116, 0.75)
+      );
+    padding: 20px;
+    .inner-sixth-row {
+        width: 70%;
+        .service {
+            img {
+                margin-bottom: 17px;
+                width: 70%;
+            }
+        }
+
+    }
 }

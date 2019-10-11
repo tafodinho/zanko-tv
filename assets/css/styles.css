@@ -361,3 +361,14 @@ ul {
 .fifth-row .inner-fifth-row .card-section .blue-card button {
   color: white;
   border-color: white; }
+
+.sixth-row {
+  background: linear-gradient(rgba(4, 80, 180, 0.705), rgba(116, 26, 116, 0.75));
+  padding: 20px; }
+
+.sixth-row .inner-sixth-row {
+  width: 70%; }
+
+.sixth-row .inner-sixth-row .service img {
+  margin-bottom: 17px;
+  width: 70%; }
