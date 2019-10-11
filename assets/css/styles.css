@@ -44,11 +44,13 @@ ul {
   float: right; }
 
 .top .header ul .logo {
-  font-size: 20px; }
+  font-size: 26px;
+  font-weight: bold; }
 
 .top .header ul .logo span {
-  font-weight: 600;
-  letter-spacing: 3px; }
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 29px; }
 
 .top .hero {
   width: 70%; }
@@ -363,12 +365,77 @@ ul {
   border-color: white; }
 
 .sixth-row {
-  background: linear-gradient(rgba(4, 80, 180, 0.705), rgba(116, 26, 116, 0.75));
-  padding: 20px; }
+  background: linear-gradient(rgba(121, 24, 233, 0.705), rgba(116, 26, 116, 0.75));
+  padding: 20px;
+  margin-bottom: 50px; }
 
 .sixth-row .inner-sixth-row {
-  width: 70%; }
+  width: 60%;
+  margin-top: 50px;
+  margin-bottom: 40px; }
+
+.sixth-row .inner-sixth-row .service {
+  color: white;
+  float: left; }
 
 .sixth-row .inner-sixth-row .service img {
   margin-bottom: 17px;
-  width: 70%; }
+  width: 30%; }
+
+.sixth-row .inner-sixth-row .service h5 {
+  text-align: justify; }
+
+.sixth-row .inner-sixth-row .service p {
+  text-align: center;
+  font-size: 14.5px; }
+
+.seventh-row {
+  padding: 12px 100px;
+  margin-top: 100px;
+  margin-bottom: 60px; }
+
+.seventh-row .subscription p {
+  font-size: 13.5px;
+  margin-top: 24px; }
+
+.seventh-row .subscribe .input {
+  border: 1px solid #ccc;
+  width: 56.5%;
+  height: 50px;
+  padding-left: 8px;
+  border-radius: 3px;
+  border-right: none; }
+
+.seventh-row .subscribe .input input {
+  border: none; }
+
+.seventh-row .subscribe .input button {
+  float: right;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  padding: 4px 20px;
+  background: linear-gradient(to right, rgba(116, 26, 116, 0.75), rgba(121, 24, 233, 0.705)); }
+
+.eigth-row {
+  padding: 40px 130px;
+  background: #62129f;
+  color: white; }
+
+.eigth-row p {
+  font-size: 13px;
+  margin-bottom: 7px;
+  color: white; }
+
+.eigth-row .column div {
+  color: white;
+  margin-top: 20px; }
+
+.eigth-row .column div .follow-us {
+  font-weight: bold; }
+
+.eigth-row hr {
+  border-width: 1px;
+  width: 78%;
+  border-color: white;
+  margin-top: 30px; }
